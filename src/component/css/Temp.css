@@ -1,0 +1,61 @@
+.container{
+    width: 607px;
+    height: 829px;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 10%);
+};
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+}
+.top-bar input{
+    display: flex;
+    width: 362px;;
+    height: 78px;
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+};
+.search_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: #ebfffc;
+    cursor: pointer;
+};
+
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+};
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+}
+
+.background_card{
+    background: linear-gradient(to bottom, #154277 0%,#576e71 30%,#e1c45e 70%,#b26339 100%);
+}
+
+.stylish{
+    color: white;
+    border: 0px none transparent;
+    border-bottom:3px solid green;
+    outline: none;
+    background-color:transparent;
+    font-size: 1rem;
+  }
